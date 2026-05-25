@@ -1,0 +1,68 @@
+:root[data-theme="dark"] {
+  --bg: #000000;
+  --fg: #f0f0f0;
+  --accent: #e2e8ff;
+  --nav-bg: rgba(255, 255, 255, 0.05);
+  --text-three: #d2d6e5;
+  --fg-two: #a17676;
+}
+
+/* :root[data-theme="light"] { */
+/*     --bg: #ffffff; */
+/*     --fg: #111111; */
+/*     --accent: #2563eb; */
+/*     --nav-bg: rgba(0,0,0,0.05); */
+/* } */
+/**/
+/* :root[data-theme="gruvbox"] { */
+/*     --bg: #282828; */
+/*     --fg: #ebdbb2; */
+/*     --accent: #fabd2f; */
+/*     --nav-bg: rgba(60,56,54,0.6); */
+/* } */
+/**/
+/* :root[data-theme="tokyonight"] { */
+/*     --bg: #1a1b26; */
+/*     --fg: #c0caf5; */
+/*     --accent: #7aa2f7; */
+/*     --nav-bg: rgba(122,162,247,0.1); */
+/* } */
+
+:root {
+  /* <!-- colors --> */
+
+  /* <!-- fonts --> */
+
+  .instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .xanh-mono-regular {
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .xanh-mono-regular-italic {
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+@font-face {
+  font-family: "InstrumentSerif";
+  src: url("../assets/fonts/InstrumentSerif-Regular.ttf");
+}
+
+/* @font-face { */
+/*     font-family: "DepartureMono"; */
+/*     src: url("../assets/fonts/DepartureMono-Regular.otf"); */
+/* } */

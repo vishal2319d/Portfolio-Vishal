@@ -1,0 +1,94 @@
+:root {
+	--bg: #000000;
+	--fg: #f0f0f0;
+	--logo: #edddff;
+	--accent: #e2e8ff;
+	--nav-bg: rgba(255, 255, 255, 0.05);
+	--text-three: #d2d6e5;
+	--fg-two: #c14747;
+}
+
+* {
+	transition: 0.3s;
+}
+
+body {
+	background-color: var(--bg);
+	/* background: #000000; */
+	color: var(--fg);
+}
+
+/* base */
+body,
+button,
+input,
+textarea {
+	font-family: "Instrument Serif", "Serif";
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.section {
+	padding-block: 6rem 4rem;
+}
+
+/* =========================== LAYOUT =================================== */
+
+.container {
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 1rem;
+}
+
+.grid {
+	display: grid;
+}
+
+
+
+#project-btn {
+	display: inline-flex;
+	background-color: #ff0000;
+	background: #ff0000;
+	color: var(--bg);
+}
+
+/* ============================ HOME ============================== */
+
+.home-container {
+	grid-template-columns: 1fr repeat(2, max-content);
+	align-items: center;
+	gap: 2rem;
+	padding-top: 5rem;
+}
+
+.home-title {
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 1rem;
+}
+
+.home-job-title {
+	font-family: "Xanh Mono", "Serif";
+	font-weight: 500;
+}
+
+.home-description {
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	width: 80%;
+	font-weight: 500;
+	color: var(--text-three);
+	margin-block: 1.5 rem 2rem;
+}
+
+.profile-image {
+	width: 20rem;
+	/* border-radius: 100%; */
+	/* border-top: 50px solid var(--accent); */
+
+}

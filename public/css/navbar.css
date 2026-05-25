@@ -1,0 +1,78 @@
+/* body{ */
+/* 	font-family: "Poppins"; */
+/* } */
+
+
+nav{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 1px;
+	background: var(--nav-bg);
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	backdrop-filter: blur(15px);
+	margin-bottom: 2rem;
+	font-family: "InstrumentSerif", "Serif";
+	letter-spacing: 0.5px;
+
+
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.logo{
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: var(--logo);
+	letter-spacing: 1px;
+	margin-right: auto;
+}
+
+
+.nav-links{
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+	margin-right: 30px;
+}
+
+.nav-links li a {
+	position: relative;
+	font-size: 1.05rem;
+	font-weight: 500;
+	text-decoration: none;
+	color: var(--accent);
+    font-family: "Instrument Serif", "Serif";
+}
+.nav-links li a:hover {
+	color: var(--accent);
+	text-shadow: 0 0 10px var(--accent);
+}
+
+
+.btns{
+	display: flex;
+}
+.theme-btn{
+	padding: 0.1rem;
+	margin: 0.1rem;
+	border-radius: 30%;
+	/* font-weight: 400; */
+	/* font-size: 1rem; */
+	background: var(--accent);
+	color: #0f172a;
+	box-shadow: 0 0 1px var(--accent);
+	border: none;
+	cursor: pointer;
+}
+
+
+.theme-btn:hover{
+
+	background: var(--accent);
+	box-shadow: 0 0 15px var(--accent);
+}
+
