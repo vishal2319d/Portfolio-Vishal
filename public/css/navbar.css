@@ -2,14 +2,20 @@
 /* 	font-family: "Poppins"; */
 /* } */
 
+.header{
+	position: fixed;
+	background-color: transparent;
+	inset: 0 0 auto;
+	z-index: 1000;
+}
 
-nav{
+nav {
 	width: 100%;
 	position: fixed;
 	top: 0;
 	padding: 1px;
 	background: var(--nav-bg);
-	border-bottom: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	backdrop-filter: blur(15px);
 	margin-bottom: 2rem;
 	font-family: "InstrumentSerif", "Serif";
@@ -23,7 +29,8 @@ nav{
 }
 
 
-.logo{
+.logo {
+	font-family: "Instrument Serif", "Serif";
 	font-size: 1.8rem;
 	font-weight: 700;
 	color: var(--logo);
@@ -32,7 +39,7 @@ nav{
 }
 
 
-.nav-links{
+.nav-links {
 	list-style: none;
 	display: flex;
 	gap: 2rem;
@@ -45,22 +52,27 @@ nav{
 	font-weight: 500;
 	text-decoration: none;
 	color: var(--accent);
-    font-family: "Instrument Serif", "Serif";
+	font-family: "Instrument Serif", "Serif";
 }
+
 .nav-links li a:hover {
 	color: var(--accent);
 	text-shadow: 0 0 10px var(--accent);
 }
 
 
-.btns{
+.nav-btns {
 	display: flex;
+	margin-right: 1rem;
 }
-.theme-btn{
+
+.theme-btn {
 	padding: 0.1rem;
 	margin: 0.1rem;
-	border-radius: 30%;
-	/* font-weight: 400; */
+	border-radius: 50%;
+	width: 1.5rem;
+	height: 1.5rem;
+	font-weight: 400;
 	/* font-size: 1rem; */
 	background: var(--accent);
 	color: #0f172a;
@@ -70,9 +82,35 @@ nav{
 }
 
 
-.theme-btn:hover{
+.theme-btn:hover {
 
-	background: var(--accent);
-	box-shadow: 0 0 15px var(--accent);
+	background: var(--accent-hover);
+	box-shadow: 0 0 15px var(--accent-hover);
 }
 
+.nav-toggle,
+.nav-close{
+	display: none;
+}
+
+
+
+@media screen and (max-width: 668px) {
+	.nav-links{
+		display: none;
+	}
+	.nav-toggle{
+		display: flex;
+		margin-left: 1rem;
+		background: transparent;
+		color:var(--accent);
+		border: none;
+		font-size: 1.2rem;
+		align-items: center;
+		width: 1.5rem;
+		height: 1.5rem;
+		font-weight: 9900;	justify-content: center;
+		box-shadow: 0 0 1px var(--accent);
+		cursor: pointer;
+	}
+}

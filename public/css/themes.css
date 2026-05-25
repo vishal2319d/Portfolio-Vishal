@@ -2,9 +2,14 @@
   --bg: #000000;
   --fg: #f0f0f0;
   --accent: #e2e8ff;
+  --accent-hover: #c2c2c2;
   --nav-bg: rgba(255, 255, 255, 0.05);
   --text-three: #d2d6e5;
   --fg-two: #a17676;
+  --button-bg: rgba(255,230,150,1);
+  --button-bg-hover: rgba(140,140,140,0.95);
+  --button-text:#000;
+
 }
 
 /* :root[data-theme="light"] { */
@@ -44,6 +49,7 @@
     font-weight: 400;
     font-style: italic;
   }
+
   .xanh-mono-regular {
     font-family: "Xanh Mono", monospace;
     font-weight: 400;

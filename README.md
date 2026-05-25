@@ -25,8 +25,8 @@ My personal portfolio website showcasing my projects, skills, education, and con
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
+git clone https://github.com/vishal2319d/Portfolio-Vishal.git
+cd Portfolio-Vishal
 ```
 
 ## Customization
